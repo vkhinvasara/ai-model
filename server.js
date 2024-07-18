@@ -9,13 +9,13 @@ const PORT = process.env.PORT || 3000;
 
 // Dummy data to be served
 const data = 
-     {
-        "Category_Food": 4389.000000000001,
-        "Category_Health": 21065.0,
-        "Category_Living": 175906.99999999994,
-        "Category_Miscellaneous": 18892.0,
-        "Category_Transport": 8692.000000000002
-    };
+{
+	"Category_Food": 5656.999999999999,
+	"Category_Health": 1103.0000000000002,
+	"Category_Living": 6181.0,
+	"Category_Miscellaneous": 1622.9999999999998,
+	"Category_Transport": 930.9999999999999
+};
 
 // Route to serve the dummy data
 app.get('/data', (req, res) => {
