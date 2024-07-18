@@ -8,16 +8,14 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Dummy data to be served
-const data = {
-    "message": "Models retrained and next month's expenses predicted successfully!",
-    "predicted_expenses": {
+const data = 
+     {
         "Category_Food": 4389.000000000001,
         "Category_Health": 21065.0,
         "Category_Living": 175906.99999999994,
         "Category_Miscellaneous": 18892.0,
         "Category_Transport": 8692.000000000002
-    }
-};
+    };
 
 // Route to serve the dummy data
 app.get('/data', (req, res) => {
